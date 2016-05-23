@@ -3,7 +3,7 @@ function onClick(info, tab) {
   console.log("tab: " + JSON.stringify(tab));
   if (info.selectionText) {
     var name = info.selectionText;
-    var url = info.pageUrl
+    var url = info.linkUrl;
   } else {
     var name = tab.title;
     var url = tab.url;
